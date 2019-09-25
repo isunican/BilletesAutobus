@@ -1,0 +1,5 @@
+language: java
+
+# Por defecto Travis invoca mvn test -B
+# si queremos cambiarlo podemos redefinirlo a través de script
+# script : mvn package
