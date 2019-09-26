@@ -1,1 +1,1 @@
-Ejemplo para uso en el seminario de Travis con Maven
+Proyecto de ejemplo para uso en el seminario de manejo de Travis con Maven
