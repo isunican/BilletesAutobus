@@ -6,4 +6,8 @@ jdk: openjdk8
 # si queremos cambiarlo podemos redefinirlo a través de script
 script : mvn clean package -B
 
+cache:
+  directories:
+  - $HOME/.m2
+
 
