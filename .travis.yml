@@ -5,4 +5,4 @@ language: java
 # script : mvn clean package -B
 
 
-jdk: oraclejdk8
+jdk: openjdk8
