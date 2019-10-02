@@ -18,7 +18,7 @@ public class GestionBilletesTest {
 		// Casos válidos
 		try {
 			valor = GestionBilletes.calculaPrecioBillete(Localidad.STN, Localidad.BCN, 0, LocalDate.now());
-			assertTrue(valor.toString(), valor == 25.0);
+			assertTrue(valor.toString(), valor == 20.0);
 		} catch (DatoIncorrecto e) {
 			fail("Caso 1: No debería lanzar la excepción");
 		}
