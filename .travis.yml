@@ -2,18 +2,18 @@ language: java
 jdk: openjdk8
 
 
-# cache:
-#   directories:
-#   - $HOME/.m2
-# 
-# addons:
-#   sonarcloud:
-#     organization: "isuc"
-#     token:
-#       secure: "120537998e2c122476f30cade8d4a25865210fa6"
-# 
+cache:
+  directories:
+  - $HOME/.m2
+
+addons:
+  sonarcloud:
+    organization: "isuc"
+    token:
+      secure: "120537998e2c122476f30cade8d4a25865210fa6"
+
 #Por defecto Travis invoca mvn test -B
-#si queremos cambiarlo podemos redefinirlo a través de script
-# script : mvn clean package sonar:sonar -B
+#Si queremos cambiarlo podemos redefinirlo a través de script
+script : mvn clean package sonar:sonar -B
 
 
