@@ -6,14 +6,14 @@ cache:
   directories:
   - $HOME/.m2
 
-#addons:
-#  sonarcloud:
-#    organization: "isuc"
-#    token:
-#      secure: "120537998e2c122476f30cade8d4a25865210fa6"
+addons:
+  sonarcloud:
+    organization: "isuc"
+    token:
+      secure: "120537998e2c122476f30cade8d4a25865210fa6"
 
 #Por defecto Travis invoca mvn test -B
 #Si queremos cambiarlo podemos redefinirlo a través de script
-#script : mvn clean package sonar:sonar -B
+script : mvn clean package sonar:sonar -B
 
 
