@@ -7,7 +7,7 @@ public class GestionBilletes {
 	
 	private static Map<Localidad, Map<Localidad,Double>> mapaTrayectos;
 	private static final int DESCUENTO_EDAD = 50;
-	private static final int DESCUENTO_ANTELACION_SEMANA_MOD = 10;
+	private static final int DESCUENTO_ANTELACION_SEMANA = 10;
 	private static final int DESCUENTO_ANTELACION_MES = 25;
 	
 	public static void cargaDatos() {
