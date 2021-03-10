@@ -10,7 +10,7 @@ public class GestionBilletes {
 	private static final int DESCUENTO_ANTELACION_SEMANA = 10;
 	private static final int DESCUENTO_ANTELACION_MES = 25;
 	
-	public static void cargaDatosMod() {
+	public static void cargaDatosModMod() {
 		//Inicializo valores
 		Map<Localidad, Double> mapaSTN = new EnumMap<Localidad, Double>(Localidad.class);
 		mapaSTN.put(Localidad.BCN, 50.0);
